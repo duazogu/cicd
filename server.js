@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from Version 1"
+    message: "Hello from Version 2"
   });
 });
 
